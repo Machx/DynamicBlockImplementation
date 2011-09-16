@@ -29,7 +29,7 @@
 		B862EE5E1423F6B400F5414F /* DynamicBlockImplementation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicBlockImplementation; sourceTree = BUILT_PRODUCTS_DIR; };
 		B862EE621423F6B400F5414F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B862EE651423F6B400F5414F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B862EE681423F6B400F5414F /* DynamicBlockImplementation-Prefix.pch */ = {isa = PBXFileReference; path = "DynamicBlockImplementation-Prefix.pch"; sourceTree = "<group>"; };
+		B862EE681423F6B400F5414F /* DynamicBlockImplementation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicBlockImplementation-Prefix.pch"; sourceTree = "<group>"; };
 		B862EE691423F6B400F5414F /* DynamicBlockImplementation.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DynamicBlockImplementation.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
