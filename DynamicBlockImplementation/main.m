@@ -10,7 +10,7 @@
 #import <objc/runtime.h>
 
 @interface MyFoo : NSObject
-@property(readonly,retain) NSString *myFooTitle;
+@property(readonly) NSString *myFooTitle;
 @end
 
 @implementation MyFoo
