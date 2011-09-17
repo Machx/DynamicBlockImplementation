@@ -10,7 +10,7 @@
 #import <objc/runtime.h>
 
 @interface MyFoo : NSObject
-@property(retain) NSString *myFooTitle;
+@property(readonly,retain) NSString *myFooTitle;
 @end
 
 @implementation MyFoo
@@ -54,6 +54,8 @@ int main (int argc, const char * argv[])
     
     //now call our method which will have to dynamically resolve
     NSLog(@"The Foo Title is %@",[aFoo myFooTitle]);
+
+    [aFoo release];
 
     [pool drain];
     return 0;
